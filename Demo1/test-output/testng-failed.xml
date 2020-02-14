@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="pass" value="Welcome1234"/>
+    <parameter name="url" value="https://www.magento.com"/>
+    <parameter name="email" value="udkp14ec@cmrit.ac.in"/>
+    <classes>
+      <class name="com.abc.testng.Demtrst">
+        <methods>
+          <include name="d1" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.abc.testng.Demtrst -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
